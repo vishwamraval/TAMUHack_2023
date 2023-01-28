@@ -4,41 +4,26 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" href="images/carlogo.png" />
     <title>RideLink</title>
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCFd_qUMJjiuNczvLCeW-lfQzSRIZJHfVA&callback=initMap%22%3E"></script>
-    <script>
-
-        // Initialize and add the map
-        function initMap() {
-        
-            // The location of Geeksforgeeks office
-            const cstat = {
-                lat: 30.628,
-                lng: 96.334
-            };
-        
-            // Create the map, centered at gfg_office
-            const map = new google.maps.Map(
-                    document.getElementById("map"), {
-        
-                // Set the zoom of the map
-                zoom: 17.56,
-            });
-        }
-        </script>
 </head>
 
 <body>
     <div class="topnav">
-        <a class="active" href="#home">Home</a>
-        <a href="/pages/menu.html">A</a>
-        <a href="/pages/orders.html">B</a>
-        <a href="/pages/cart.html">C</a>
+        <a class="btn" href="#home">Home</a>
+        <a class = "btn" href="/pages/menu.html">A</a>
+        <a class = "btn" href="/pages/orders.html">B</a>
+        <a class = "btn" href="/pages/cart.html">C</a>
     </div>
-    <div id="map"> </div>
+    <div class = "welcome-spacer">
+    </div>
+    <h1 id = "welcome-header"> 
+        Welcome to RideLink
+    </h1>    
+
 </body>
 
 </html>
