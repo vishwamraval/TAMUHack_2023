@@ -22,3 +22,8 @@
     background-color: rgb(255, 0, 0);
     color: #ffffff;
 }
+
+#map {
+    height: 400px;
+    width: 400px;
+}
