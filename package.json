@@ -14,7 +14,7 @@
   "name": "tamuhack_2023",
   "description": "Our project for tamu hack 2023",
   "version": "1.0.0",
-  "main": "demo.js",
+  "main": "script.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/vishwamraval/TAMUHack_2023.git"
