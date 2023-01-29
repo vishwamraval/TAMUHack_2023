@@ -496,7 +496,6 @@
   height: 116px;
   left: 25px;
   top: 1640px;
-
   font-family: 'Fredoka';
   font-style: normal;
   font-weight: 400;
@@ -1142,4 +1141,61 @@ h5 {
   font-weight: 300;
   font-size: 40px;
   line-height: 77px;
+}
+
+.Drop-Off {
+  position: absolute;
+  width: 450px;
+  height: 48px;
+  left: 151px;
+  top: 500px;
+
+  font-family: 'Fredoka';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 40px;
+  line-height: 48px;
+
+  color: #000000;
+}
+
+.dropBOX {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 529px;
+  height: 41px;
+  left: 148px;
+  top: 555px;
+
+  background: #FFFFFF;
+  border: 2.25px solid #000000;
+  border-radius: 25px;
+}
+
+.ride_head {
+  position: absolute;
+  width: 176px;
+  height: 77px;
+  left: 140px;
+  top: 172px;
+
+  font-family: 'Fredoka';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 64px;
+  line-height: 77px;
+}
+
+#bottom {
+  position: absolute;
+  width: 550px;
+  height: 150px;
+  left: 650px;
+  top: 1840px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 70px;
 }
