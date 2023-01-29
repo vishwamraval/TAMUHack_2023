@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="../styles.css" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="../images/carlogo.png" />
+
+    <title>Ridelink | Rider</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Fredoka" rel="stylesheet" />
+    <script type="text/javascript"
+        src="https://api.tomtom.com/maps-sdk-for-web/cdn/6.x/6.23.0/maps/maps-web.min.js"> </script>
+
+</head>
+
+<body>
+    <h1 class="logo-type">Ridelink</h1>
+    <div>
+        <button class="topNavButton-profile"><a href="profile.html" class="link_dec">Profile</a></button>
+        <button class="topNavButton-ride"><a href="rider.html" class="link_dec">Ride</a></button>
+        <button class="topNavButton-drive"><a href="driver.html" class="link_dec">Drive</a></button>
+        <button class="topNavButton-history"><a href="history.html" class="link_dec">History</a></button>
+    </div>
+    <div id="map" style="margin-top: 200px;margin-left: 550px;width:50%;height:50%"> </div>
+</body>
+<script type="text/javascript">
+    let center = [-96, 30]
+    const map = tt.map({
+        key: "aR9XUe1Ck3tI8A1VGbHLjes49FRye9mM",
+        container: "map",
+        center: center,
+        zoom: 15
+    })
+    map.on('load', () => {
+        new tt.Marker().setLngLat(center).addTo(map)
+    })
+</script>
+</body>
+
+</html>
