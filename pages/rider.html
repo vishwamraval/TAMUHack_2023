@@ -28,15 +28,15 @@
 </body>
 <script type="text/javascript">
     let center = [-96, 30]
-    const map = tt.map({
+    var map = tt.map({
         key: "aR9XUe1Ck3tI8A1VGbHLjes49FRye9mM",
         container: "map",
         center: center,
         zoom: 15
-    })
+    });
     map.on('load', () => {
         new tt.Marker().setLngLat(center).addTo(map)
-    })
+    });
 </script>
 </body>
 
